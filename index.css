@@ -1,0 +1,69 @@
+/* index.css */
+
+body {
+  background-image: url('saturno.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #e0e0e0;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(13, 71, 161, 0.8); /* Azul escuro com opacidade */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #ffab40;
+  margin: 0;
+  font-size: 2em;
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro com opacidade */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  background-color: rgba(21, 101, 192, 0.8); /* Azul mais claro com opacidade */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle h2 {
+  color: #00e676;
+  margin-bottom: 10px;
+}
+
+.subtitle h3 {
+  color: #00bcd4; 
+  margin-bottom: 10px; 
+}
+
+.subtitle h4 {
+  color: #ffab40; 
+  margin-bottom: 8px;
+}
+
+.code-example {
+  background-color: rgba(12, 12, 12, 0.8); 
+  padding: 15px; 
+  border-radius: 8px; 
+  overflow-x: auto;
+}
+
+.code-example code {
+  color: #b2bec3; 
+  display: block; 
+  white-space: pre-wrap; 
+}
