@@ -103,13 +103,59 @@
               </code>
           </pre>
       </div>
-
+      <p>O código TypeScript que fizemos aqui define uma classe simples chamada Pessoa e
+        demonstra como criar uma instância dessa classe e chamar um método.</p>
     </section>
 
 
     <section class="subtitle">
         <h2>React</h2>
-        <p>Descrição ou detalhes sobre seus projetos React.</p>
+        <p>React é um framework JavaScript criado pelo Facebook (atual Meta) que é usado para criar
+          interfaces de usuário (UI) em aplicativos web. Ele é popular por ser fácil de usar, altamente flexível e
+          escalável, e é usado por muitas empresas de tecnologia, incluindo o Facebook, Instagram e Airbnb.</p>
+        <h3>Vejamos aqui um exemplo de código React:</h3>
+        <!-- Exemplo de Código React -->
+        <div class="code-example">
+          <pre>
+              <code>
+                  // index.jsx
+
+                  import React, { useState } from 'react';
+
+                  // Componente funcional React
+                  const ContadorReact = () => {
+                      const [contador, setContador] = useState(0);
+
+                      // Função para incrementar o contador
+                      const incrementarContador = () => {
+                          setContador(contador + 1);
+                      };
+
+                      return (
+                          <-div->
+                              <-p->Contagem: {contador}<-/p->
+                              <-button onClick={incrementarContador}>Incrementar<-/button>
+                          <-/div->
+                      );
+                  };
+
+                  // Uso do componente
+                  const App = () => {
+                      return (
+                          <div>
+                              <-h3>Exemplo de Contador em React<-/h3>
+                              <ContadorReact />
+                          </div>
+                      );
+                  };
+
+                  export default App;
+              </code>
+          </pre>
+      </div>
+      <p>Em resumo, este exemplo demonstra um componente React simples que mantém um estado local (contador) e
+        atualiza esse estado em resposta a eventos de clique. Isso é uma representação básica de como os componentes
+        React e os hooks podem ser usados para gerenciar o estado e interatividade em uma aplicação React.</p>
     </section>
 
 
